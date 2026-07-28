@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import APIRouter
 from app.schema import ChatRequest, ChatResponse
 from app.ollama import generate
 
